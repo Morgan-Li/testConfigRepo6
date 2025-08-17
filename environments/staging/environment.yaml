@@ -16,7 +16,9 @@ app:
   #  artifactId: ferret
   #  version: 1.2
   #  type: war
-
+  
+  libertyInterimFixes:
+    - PH65529
 
 
 
