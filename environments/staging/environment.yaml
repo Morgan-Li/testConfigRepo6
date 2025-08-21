@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: "2bf6a94b-42dd-4401-87ce-1de984cf951d"
+  version: "dc91a66a-17b3-4691-b605-97226e253b75"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   
@@ -18,7 +18,7 @@ app:
   #  type: war
 
   # One of three values: latest, latest_lts, or a fixed version (e.g. 25.0.0.3)
-  # libertyVersionPolicy: 25.0.0.3
+  libertyVersionPolicy: 25.0.0.3
   
   # A list of ifixes that the user would like to install
   libertyInterimFixes:
