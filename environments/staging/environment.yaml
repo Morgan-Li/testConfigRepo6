@@ -17,7 +17,7 @@ app:
   #  version: 1.2
   #  type: war
 
-  libertyVersionPolicy: 25.0.0.6
+  libertyVersionPolicy: 25.0.0.3
   
   libertyInterimFixes:
     - PH65529
