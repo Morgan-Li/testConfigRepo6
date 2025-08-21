@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: "2fd80937-ae26-49da-950f-f07634d2b28a"
+  version: "2bf6a94b-42dd-4401-87ce-1de984cf951d"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   
@@ -16,6 +16,8 @@ app:
   #  artifactId: ferret
   #  version: 1.2
   #  type: war
+
+  libertyVersionPolicy: 25.0.0.6
   
   libertyInterimFixes:
     - PH65529
