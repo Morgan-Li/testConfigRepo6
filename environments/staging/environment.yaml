@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  version: "91ab11d9-a6e2-4f15-9b62-8959fca5cafe"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   
@@ -16,14 +16,6 @@ app:
   #  artifactId: ferret
   #  version: 1.2
   #  type: war
-
-  # One of three values: latest, latest_lts, or a fixed version (e.g. 25.0.0.3)
-  libertyVersionPolicy: 25.0.0.3
-  
-  # A list of ifixes that the user would like to install
-  libertyInterimFixes:
-    - PH65529
-    - PH66915
 
 
   # Set minimum and maximum number of instances of the application. 
